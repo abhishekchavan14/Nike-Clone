@@ -211,7 +211,7 @@ nav {
     display: flex;
     flex-direction: column;
     width: 1260px;
-
+    margin-left: 15px;
 }
 
 #luka #luka-img {
@@ -916,4 +916,15 @@ footer{
 #footer-bottom-right div:hover{
     cursor: pointer;
     color: white;
+}
+
+
+@media (max-width:1120px){
+
+    #luka #luka-img{
+        display: none;
+    }
+    #luka-text{
+        width: 800px;
+    }
 }
