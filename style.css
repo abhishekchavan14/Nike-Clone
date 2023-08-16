@@ -917,14 +917,3 @@ footer{
     cursor: pointer;
     color: white;
 }
-
-
-@media (max-width:1120px){
-
-    #luka #luka-img{
-        display: none;
-    }
-    #luka-text{
-        width: 800px;
-    }
-}
